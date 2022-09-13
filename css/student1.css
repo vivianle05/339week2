@@ -3,13 +3,11 @@ body{
     padding:5px;
     line-height:1.15;
  }
-  
- h1,h2, h3{
+h1,h2, h3{
     font-weight: bold;
     margin-top:15px;
-  
- }
- ul li{
+}
+ul li{
     margin-left: 25px;
     /* list-style-type: upper-roman; */
     position: relative;
@@ -17,20 +15,28 @@ body{
 
  }
 nav li{
+   display: inline-block;
+   position: relative;
    background-color: #00ffff;
    font-size: 15px;
    text-align: left;
    border-radius: 25px;
-   padding: 15px;
-   margin-right: 420px;
-   border: solid 3px #000000;
+   padding: 10px;
+   /* margin-right: 420px; */
+   border: solid 2px #000000;
    z-index: inherit;
 }
-
 img{
    width: 24%;
-   padding: 20px;
-   border: dashed 3px #ffffff;
+   padding: 10px;
+   border: dashed 3px #000000;
    margin: none;
 }
- 
+p{
+   /* display: inline-block; */
+   width: 30%;
+   border: dashed 1px blue;
+   position: static;
+   top: 25px;
+   left: 50px;
+}
