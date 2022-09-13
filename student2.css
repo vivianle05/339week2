@@ -1,0 +1,28 @@
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+  
+ h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+  
+ }
+ ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+
+ }
+
+ nav li{
+   position: sticky;
+   text-align: left;
+   border-radius: 5px;
+   background-color: rgb(106, 194, 199);
+   border-style: solid;
+   padding: 5px;
+   margin-left: 15px;
+
+ }
+ 
