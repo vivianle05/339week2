@@ -1,0 +1,15 @@
+body{
+    font-family: Courier, "Times New Roman", Impact;
+    line-height: 2;
+    color: navy;
+    background-color: lightgray; 
+    font-size: 15px; 
+}
+
+img{
+    border: 5px solid lightblue;
+}
+
+li{
+    border: solid 10px black;
+}
