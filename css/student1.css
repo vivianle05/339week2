@@ -3,9 +3,13 @@ body{
     padding:5px;
     line-height:1.15;
  }
+header{
+   margin-top: 10px;
+   margin-right: 50px;
+}
 h1,h2, h3{
     font-weight: bold;
-    margin-top:15px;
+    margin-top: 15px;
 }
 ul li{
     margin-left: 25px;
@@ -26,17 +30,47 @@ nav li{
    border: solid 2px #000000;
    z-index: inherit;
 }
-img{
+h1 img{
+   width: 24%;
+   padding: 10px;
+   border: dashed 3px #000000;
+   margin: none;
+}
+main img {
+   /* width: 90%; */
    width: 24%;
    padding: 10px;
    border: dashed 3px #000000;
    margin: none;
 }
 p{
-   /* display: inline-block; */
+   display: inline-block;
    width: 30%;
    border: dashed 1px blue;
    position: static;
    top: 25px;
    left: 50px;
+}
+.gallery{
+   display: grid;
+   /* grid-template-columns: repeat(2, 1fr) = auto format, two columns of equal size */
+   grid-template-columns: 250px 250px;
+   column-gap: 50px;
+   row-gap: 50px;
+   padding: 20px;
+   align-items: stretch;
+   justify-content: center;
+   justify-items: center;
+   border: solid 3px #000000;
+}
+.gallery img{
+   /* width: 250px; */
+   width: 85%;
+}
+
+img:last-child{
+   /* spans entire column, starts at row 1 and ends at last column -1 */
+   grid-column: 1/ -1;
+   /* justify-content: center; */
+   border: 10px solid black;
 }
